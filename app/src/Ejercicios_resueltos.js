@@ -4,7 +4,7 @@
 map se usa para transformar cada elemento del arreglo*/
 const numeros1 = [2, 4, 6, 8, 10];
 const resultado1 = numeros1.map(n => n * 2);
-console.log(resultado1); // [4, 8, 12, 16, 20]
+console.log(resultado1); 
 
 
 /*2. Convertir nombres a mayúsculas con map
@@ -18,7 +18,7 @@ console.log(resultado2);
 map devuelve el tamaño de cada palabra*/
 const palabras3 = ["sol", "computador", "mesa", "javascript"];
 const resultado3 = palabras3.map(p => p.length);
-console.log(resultado3); // [3, 10, 4, 10]
+console.log(resultado3); 
 
 
 /*4. Filtrar números pares con filter
@@ -50,13 +50,13 @@ console.log(resultado6);
 reduce acumula valores*/
 const numeros7 = [5, 10, 15, 20];
 const resultado7 = numeros7.reduce((acc, n) => acc + n, 0);
-console.log(resultado7); // 50
+console.log(resultado7); 
 
 
 /*8. Multiplicar números con reduce*/
 const numeros8 = [2, 3, 4];
 const resultado8 = numeros8.reduce((acc, n) => acc * n, 1);
-console.log(resultado8); // 24
+console.log(resultado8); 
 
 
 /*9. Contar letras con reduce*/
