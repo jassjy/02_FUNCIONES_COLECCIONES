@@ -2,7 +2,7 @@
 
 /*1. Duplicar números con map
 map se usa para transformar cada elemento del arreglo*/
-const numeros1 = [2, 4, 6, 8, 10];
+const numeros1 = [3, 4, 5, 8, 11];
 const resultado1 = numeros1.map(n => n * 2);
 console.log(resultado1); 
 
@@ -54,7 +54,7 @@ console.log(resultado7);
 
 
 /*8. Multiplicar números con reduce*/
-const numeros8 = [2, 3, 4];
+const numeros8 = [8, 3, 9];
 const resultado8 = numeros8.reduce((acc, n) => acc * n, 1);
 console.log(resultado8); 
 
@@ -66,7 +66,7 @@ console.log(resultado9);
 
 
 /*10. Ordenar números ascendentemente*/
-const numeros10 = [45, 12, 78, 3, 19, 1];
+const numeros10 = [25, 12, 50, 3, 15, 1];
 const resultado10 = numeros10.slice().sort((a, b) => a - b);
 console.log(resultado10);
 
@@ -85,9 +85,9 @@ console.log(resultado12);
 /*13. Ordenar productos por precio*/
 const productos13 = [
  { nombre: "Teclado", precio: 120000 },
- { nombre: "Mouse", precio: 50000 },
+ { nombre: "Mouse", precio: 70000 },
  { nombre: "Monitor", precio: 800000 },
- { nombre: "USB", precio: 30000 }
+ { nombre: "USB", precio: 50000 }
 ];
 
 const resultado13 = productos13.slice().sort((a, b) => a.precio - b.precio);
@@ -157,7 +157,7 @@ console.log("Cantidad:", contador);
 
 
 /*19. filter + map*/
-const numeros19 = [3, 8, 15, 20, 7, 12, 1, 30];
+const numeros19 = [3, 5, 15, 40, 7, 13, 1, 35];
 
 const resultado19 = numeros19
  .filter(n => n > 10)
